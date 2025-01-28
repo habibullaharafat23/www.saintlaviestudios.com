@@ -34,7 +34,7 @@ var cookieInfoText = ["Expiration", "Domain", "Controller"];
 
 var bannerShowingDelayed = 0;
 
-var websiteLogo = "https://www.artsillustratedstudios.pro/wp-content/uploads/2019/10/cropped-ais-black-on-white.png";
+var websiteLogo = "https://cdn.prod.website-files.com/601987b8e4fc3d2bd8810278/601995093c81388e4d7de4d1_Saint%20Lavie%20Logo.svg";
 
 var logoWidth = "50px";
 
