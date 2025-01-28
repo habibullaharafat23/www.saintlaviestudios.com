@@ -7,7 +7,7 @@ var learnMoreText = "Learn more about the provider";
 
 var topSectionText = ["Consent", "Details", "About"];
 
-var firstSectionText = "We need your permission to use cookies to personalize content and ads, enable social media features, and analyze our website traffic. We also share information about your use of our site with our social media, advertising, and analytics partners.";
+var firstSectionText = "We use cookies to personalize content and ads, provide social media features, and analyze our traffic. We also share information about your use of our website with our social media, advertising, and analytics partners, who may combine it with other information you have provided to them or that they have collected from your use of their services.";
 var thirdSectionText = "Cookies are small text files that are used by websites to improve the user experience. The law states that we can store cookies on your device if they are strictly necessary for the operation of this website. For all other types of cookies, we need your permission. This means that cookies classified as necessary are managed according to Article 6(1)(f) of the GDPR. All other cookies, such as those in the Preferences and Marketing categories, are managed according to Article 6(1)(a) of the GDPR. This website uses different types of cookies. Some cookies are set by third-party services that appear on our pages.";
 
 var bannerButtonsTexts = ["Accept", "Decline", "Customize", "Save"];
@@ -38,7 +38,7 @@ var websiteLogo = "https://cdn.prod.website-files.com/601987b8e4fc3d2bd8810278/6
 
 var logoWidth = "50px";
 
-var darkModeEnable = false;
+var darkModeEnable = true;
 
 var darkModeDefault = localStorage.getItem("viewMode") ? localStorage.getItem("viewMode") : "light";
 
