@@ -415,6 +415,7 @@
   /* Rounded sliders */
   .slider.round {
     border-radius: 34px;
+    display: none;
   }
   
   .slider.round:before {
