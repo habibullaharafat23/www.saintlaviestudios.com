@@ -239,18 +239,7 @@ window.addEventListener("load", function() {
 			const jsonCookies = await fetchCookies();
 			let matchedCookies = [
 
-				{
-      "id": "fbp",
-      "platform": "Facebook",
-      "category": "Marketing",
-      "data_key": "_fbp",
-      "domain": "https://www.saintlaviestudios.com/",
-      "description": "Používáno Facebookem k doručování řady reklamních produktů, jako je real-time bidding od třetích stran",
-      "retention_period": "3 months",
-      "data_controller": "Facebook",
-      "privary_rights_portals": "https://www.facebook.com/about/privacy/",
-      "wildcard_match": 0
-  },
+				
   {
       "id": "fbc",
       "platform": "Facebook",
@@ -311,150 +300,20 @@ window.addEventListener("load", function() {
     "privary_rights_portals": "https://policies.google.com/privacy",
     "wildcard_match": 0
 },
+
     {
-        "id": "wordpress-logged-in",
-        "platform": "WordPress",
-        "category": "Functional",
-        "data_key": "wordpress_logged_in_*",
-        "domain": "https://www.saintlaviestudios.com/",
-        "description": "Ukládat přihlášené uživatele.",
-        "retention_period": "1 months",
-        "data_controller": "WordPress",
-        "privary_rights_portals": "https://wordpress.org/about/privacy/",
-        "wildcard_match": 0
-    },
-    {
-        "id": "wordpress-sec",
-        "platform": "WordPress",
-        "category": "Functional",
-        "data_key": "wordpress_sec_*",
-        "domain": "https://www.saintlaviestudios.com/",
-        "description":"Pro zajištění ochrany proti hackerům uchovávejte údaje o účtu.",
-        "retention_period": "15 days",
-        "data_controller": "WordPress",
-        "privary_rights_portals": "https://wordpress.org/about/privacy/",
-        "wildcard_match": 0
-    },
-    {
-        "id": "wordpress-test-cookie",
-        "platform": "WordPress",
-        "category": "Functional",
-        "data_key": "wordpress_test_cookie",
-        "domain": "https://www.saintlaviestudios.com/",
-        "description": "Poskytnout ochranu proti hackerům, uložit údaje účtu.",
-        "retention_period": "Session",
-        "data_controller": "WordPress",
-        "privary_rights_portals": "https://wordpress.org/about/privacy/",
-        "wildcard_match": 0
-    },
-    {
-        "id": "wp-settings",
-        "platform": "WordPress",
-        "category": "Functional",
-        "data_key": "wp-settings-*",
-        "domain": "https://www.saintlaviestudios.com/",
-        "description": "ukládat uživatelské preference.",
-        "retention_period": "Persistent",
-        "data_controller": "WordPress",
-        "privary_rights_portals": "https://wordpress.org/about/privacy/",
-        "wildcard_match": 0
-    },
-    {
-        "id": "wp-settings",
-        "platform": "WordPress",
-        "category": "Functional",
-        "data_key": "wp-settings-*",
-        "domain": "https://www.saintlaviestudios.com/",
-        "description": "ukládat uživatelské preference.",
-        "retention_period": "1 year",
-        "data_controller": "WordPress",
-        "privary_rights_portals": "https://wordpress.org/about/privacy/",
-        "wildcard_match": 0
-    },
-    {
-      "id": "MUID",
-      "platform": "Microsoft Clarity",
+      "id": "_pinterest_ct_rt",
+      "platform": "Pinterest",
       "category": "Marketing",
-      "data_key": "MUID",
+      "data_key": "_pinterest_ct_rt",
       "domain": "https://www.saintlaviestudios.com/",
       "description": "Ukládejte a sledujte návštěvy různých webových stránek.",
       "retention_period": "1 year",
       "data_controller": "Microsoft Clarity",
-      "privary_rights_portals": "https://privacy.microsoft.com/en-us/privacystatement",
+      "privary_rights_portals": "https://policy.pinterest.com/en",
       "wildcard_match": 0
   },
-  {
-    "id": "clck",
-    "platform": "Microsoft Clarity",
-    "category": "Marketing",
-    "data_key": "_clck",
-    "domain": "https://www.saintlaviestudios.com/",
-    "description": "Uložit jedinečné ID uživatele.",
-    "retention_period": "1 year",
-    "data_controller": "Microsoft Clarity",
-    "privary_rights_portals": "https://privacy.microsoft.com/en-us/privacystatement",
-    "wildcard_match": 0
-},
-{
-  "id": "clsk",
-  "platform": "Microsoft Clarity",
-  "category": "Statistics",
-  "data_key": "_clsk",
-  "domain": "https://www.saintlaviestudios.com/",
-  "description": "Ukládat a kombinovat zobrazení stránek uživatelem do jednoho záznamu relace.",
-  "retention_period": "1 day",
-  "data_controller": "Microsoft Clarity",
-  "privary_rights_portals": "https://privacy.microsoft.com/en-us/privacystatement",
-  "wildcard_match": 0
-},
-{
-  "id": "pin_unauth",
-  "platform": "Pinterest",
-  "category": "Marketing",
-  "data_key": "_pin_unauth",
-  "domain": "https://www.saintlaviestudios.com/",
-  "description": "Ukládat historii používání uživatelů.",
-  "retention_period": "1 day",
-  "data_controller": "Pinterest",
-  "privary_rights_portals": "https://policy.pinterest.com/en/privacy-policy",
-  "wildcard_match": 0
-},
-{
-  "id": "pin_unauth",
-  "platform": "Pinterest",
-  "category": "Marketing",
-  "data_key": "_pin_unauth",
-  "domain": "https://www.saintlaviestudios.com/",
-  "description":"Ukládat historii používání uživatelů.",
-  "retention_period": "1 day",
-  "data_controller": "Pinterest",
-  "privary_rights_portals": "https://policy.pinterest.com/en/privacy-policy",
-  "wildcard_match": 0
-},
-{
-  "id": "uetsid",
-  "platform": "Bing Ads",
-  "category": "Marketing",
-  "data_key": "__uetsid",
-  "domain": "https://www.saintlaviestudios.com/",
-  "description": "ukládat a sledovat návštěvy napříč webovými stránkami.",
-  "retention_period": "1 day",
-  "data_controller": "Bing Ads",
-  "privary_rights_portals": "https://privacy.microsoft.com/privacystatement",
-  "wildcard_match": 0
-},
-{
-  "id": "uetvid",
-  "platform": "Bing Ads",
-  "category": "Marketing",
-  "data_key": "_uetvid",
-  "domain": "https://www.saintlaviestudios.com/",
-  "description": "ukládat a sledovat návštěvy napříč webovými stránkami.",
-  "retention_period": "13 month",
-  "data_controller": "Bing Ads",
-  "privary_rights_portals": "https://privacy.microsoft.com/privacystatement",
-  "wildcard_match": 0
-},
+ 
 {
   "id": "Sbjs_current",
   "platform": "Sourcebuster JS",
@@ -550,18 +409,7 @@ window.addEventListener("load", function() {
   "privary_rights_portals": "https://jetpack.com/support/privacy/#",
   "wildcard_match": 0
 },
-{
-  "id": "ANONCHK",
-  "platform": "Microsoft Clarity",
-  "category": "Marketing",
-  "data_key": "ANONCHK",
-  "domain": "https://www.saintlaviestudios.com/",
-  "description": "se specifickými funkcemi",
-  "retention_period": "session",
-  "data_controller": "Microsoft Clarity",
-  "privary_rights_portals": "https://privacy.microsoft.com/en-us/privacystatement",
-  "wildcard_match": 0
-},
+
 {
   "id": "APISID",
   "platform": "Google",
@@ -634,30 +482,8 @@ window.addEventListener("load", function() {
   "privary_rights_portals": "https://policies.google.com/privacy",
   "wildcard_match": 0
 },
-{
-  "id": "stripe_mid",
-  "platform": "Stripe",
-  "category": "Marketing",
-  "data_key": "__stripe_mid",
-  "domain": "https://www.saintlaviestudios.com/",
-  "description": "poskytnout prevenci podvodů.",
-  "retention_period": "1 years",
-  "data_controller": "Stripe",
-  "privary_rights_portals": "https://stripe.com/privacy",
-  "wildcard_match": 0
-},
-{
-  "id": "hjSessionUser",
-  "platform": "Hotjar",
-  "category": "Analytics",
-  "data_key": "_hjSessionUser_*",
-  "domain": "https://www.saintlaviestudios.com/",
-  "description": "pro uložení jedinečného ID uživatele.",
-  "retention_period": "1 years",
-  "data_controller": "Hotjar",
-  "privary_rights_portals": "https://www.hotjar.com/legal/policies/privacy/y",
-  "wildcard_match": 0
-},
+
+
 {
   "id": "datr",
   "platform": "Facebook",
@@ -682,18 +508,7 @@ window.addEventListener("load", function() {
   "privary_rights_portals": "https://www.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0",
   "wildcard_match": 0
 },
-{
-  "id": "ttwid",
-  "platform": "TikTok",
-  "category": "Marketing",
-  "data_key": "ttwid",
-  "domain": "https://www.saintlaviestudios.com/",
-  "description": "uložit, pokud uživatel viděl vložený obsah.",
-  "retention_period": "1 years",
-  "data_controller": "TikTok",
-  "privary_rights_portals": "https://www.tiktok.com/legal/page/row/privacy-policy/en",
-  "wildcard_match": 0
-},
+
 {
   "id": "wd",
   "platform": "Facebook",
@@ -718,7 +533,30 @@ window.addEventListener("load", function() {
   "privary_rights_portals": "https://www.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0",
   "wildcard_match": 0
 },
-
+{
+  "id": "_hjSessionUser_14",
+  "platform": "Hotjar",
+  "category": "Analytics",
+  "data_key": "_hjSessionUser_14",
+  "domain": "https://www.saintlaviestudios.com/",
+  "description": "číst rozlišení obrazovky.",
+  "retention_period": "1 year",
+  "data_controller": "Facebook",
+  "privary_rights_portals": "https://www.saintlaviestudios.com/",
+  "wildcard_match": 0
+},
+				{
+  "id": "hjSessionUser",
+  "platform": "Hotjar",
+  "category": "Analytics",
+  "data_key": "_hjSessionUser_*",
+  "domain": "https://mark-ryden.cz",
+  "description": "pro uložení jedinečného ID uživatele.",
+  "retention_period": "1 years",
+  "data_controller": "Hotjar",
+  "privary_rights_portals": "https://www.hotjar.com/legal/policies/privacy/y",
+  "wildcard_match": 0
+},
 
 			];
 
