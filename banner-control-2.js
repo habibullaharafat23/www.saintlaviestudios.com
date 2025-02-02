@@ -313,102 +313,9 @@ window.addEventListener("load", function() {
       "privary_rights_portals": "https://policy.pinterest.com/en",
       "wildcard_match": 0
   },
- 
-{
-  "id": "Sbjs_current",
-  "platform": "Sourcebuster JS",
-  "category": "Analytics",
-  "data_key": "Sbjs_current",
-  "domain": "https://www.saintlaviestudios.com/",
-  "description": "ukládat podrobnosti o prohlížeči.",
-  "retention_period": "6 month",
-  "data_controller": "Sourcebuster JS",
-  "privary_rights_portals": "#",
-  "wildcard_match": 0
-},
-{
-  "id": "sbjs_current_add",
-  "platform": "Sourcebuster JS",
-  "category": "Analytics",
-  "data_key": "sbjs_current_add",
-  "domain": "https://www.saintlaviestudios.com/",
-  "description": "ukládat podrobnosti o prohlížeči.",
-  "retention_period": "6 month",
-  "data_controller": "Sourcebuster JS",
-  "privary_rights_portals": "#",
-  "wildcard_match": 0
-},
-{
-  "id": "sbjs_first",
-  "platform": "Sourcebuster JS",
-  "category": "Analytics",
-  "data_key": "sbjs_first",
-  "domain": "https://www.saintlaviestudios.com/",
-  "description": "Používá se knihovnou Simple Behavioral JavaScript (SBJS) k ukládání dalších dat souvisejících s chováním nebo interakcemi aktuálního uživatele na webu.",
-  "retention_period": "6 month",
-  "data_controller": "Sourcebuster JS",
-  "privary_rights_portals": "#",
-  "wildcard_match": 0
-},
-{
-  "id": "Sbjs_first_add",
-  "platform": "Sourcebuster JS",
-  "category": "Analytics",
-  "data_key": "Sbjs_first_add",
-  "domain": "https://www.saintlaviestudios.com/",
-  "description": "Používá se knihovnou Simple Behavioral JavaScript (SBJS) k ukládání dalších dat souvisejících s chováním nebo interakcemi aktuálního uživatele na webu.",
-  "retention_period": "6 month",
-  "data_controller": "Sourcebuster JS",
-  "privary_rights_portals": "#",
-  "wildcard_match": 0
-},
-{
-  "id": "sbjs_migrations",
-  "platform": "Sourcebuster JS",
-  "category": "Analytics",
-  "data_key": "sbjs_migrations",
-  "domain": "https://www.saintlaviestudios.com/",
-  "description": "Používá se knihovnou Simple Behavioral JavaScript (SBJS) k ukládání dalších dat souvisejících s chováním nebo interakcemi aktuálního uživatele na webu.",
-  "data_controller": "Sourcebuster JS",
-  "privary_rights_portals": "#",
-  "wildcard_match": 0
-},
-{
-  "id": "sbjs_udata",
-  "platform": "Sourcebuster JS",
-  "category": "Analytics",
-  "data_key": "sbjs_udata",
-  "domain": "https://www.saintlaviestudios.com/",
-  "description":"Používá se knihovnou Simple Behavioral JavaScript (SBJS) k ukládání dalších dat souvisejících s chováním nebo interakcemi aktuálního uživatele na webu.",
-  "retention_period": "6 month",
-  "data_controller": "Sourcebuster JS",
-  "privary_rights_portals": "#",
-  "wildcard_match": 0
-},
-{
-  "id": "tk_ai",
-  "platform": "WooCommerce",
-  "category": "Analytics",
-  "data_key": "tk_ai",
-  "domain": "https://www.saintlaviestudios.com/",
-  "description": "pro uložení jedinečného ID uživatele.",
-  "retention_period": "session",
-  "data_controller": "WooCommerce",
-  "privary_rights_portals": "#",
-  "wildcard_match": 0
-},
-{
-  "id": "tk_r3d",
-  "platform": "Jetpack",
-  "category": "Analytics",
-  "data_key": "tk_r3d",
-  "domain": "https://www.saintlaviestudios.com/",
-  "description": "pro uložení jedinečného ID uživatele.",
-  "retention_period": "3 days",
-  "data_controller": "Jetpack",
-  "privary_rights_portals": "https://jetpack.com/support/privacy/#",
-  "wildcard_match": 0
-},
+
+
+
 
 {
   "id": "APISID",
@@ -470,6 +377,18 @@ window.addEventListener("load", function() {
   "privary_rights_portals": "https://policies.google.com/privacy",
   "wildcard_match": 0
 },
+				{
+  "id": "__Secure-1PAPISID",
+  "platform": "Google",
+  "category": "Marketing",
+  "data_key": "SIDCC",
+  "domain": "https://www.saintlaviestudios.com/",
+  "description": "It is used by Google services for user authentication, security, and tracking user preferences across Google domains.",
+  "retention_period": "2 years",
+  "data_controller": "Google",
+  "privary_rights_portals": "https://policies.google.com/privacy",
+  "wildcard_match": 0
+},
 {
   "id": "SSID",
   "platform": "Google",
@@ -484,18 +403,7 @@ window.addEventListener("load", function() {
 },
 
 
-{
-  "id": "datr",
-  "platform": "Facebook",
-  "category": "Marketing",
-  "data_key": "datr",
-  "domain": "https://www.saintlaviestudios.com/",
-  "description": "poskytnout prevenci podvodů.",
-  "retention_period": "2 years",
-  "data_controller": "Facebook",
-  "privary_rights_portals": "https://www.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0",
-  "wildcard_match": 0
-},
+
 {
   "id": "sb",
   "platform": "Facebook",
@@ -545,11 +453,12 @@ window.addEventListener("load", function() {
   "privary_rights_portals": "https://www.saintlaviestudios.com/",
   "wildcard_match": 0
 },
+
 				{
-  "id": "hjSessionUser",
+  "id": "OptanonConsent",
   "platform": "Hotjar",
   "category": "Analytics",
-  "data_key": "_hjSessionUser_*",
+  "data_key": "OptanonConsent*",
   "domain": "https://mark-ryden.cz",
   "description": "pro uložení jedinečného ID uživatele.",
   "retention_period": "1 years",
@@ -557,7 +466,6 @@ window.addEventListener("load", function() {
   "privary_rights_portals": "https://www.hotjar.com/legal/policies/privacy/y",
   "wildcard_match": 0
 },
-
 			];
 
 			jsonCookies.forEach((jsonCookie) => {
